@@ -3,12 +3,16 @@ import logging
 import subprocess
 import os
 import sys
+from dotenv import load_dotenv
 
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
-from config_bot import token, my_id
+load_dotenv()
+
+token = os.getenv('TOKEN')
+my_id = os.getenv('my_id')
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=token)
