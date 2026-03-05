@@ -20,6 +20,8 @@
 git clone https://github.com/KuPriv/parse-medrocket.git
 cd parse-medrocket
 pip install -r requirements.txt
+cp .env.example .env
+# заполнить .env своими значениями
 python try_to_parse.py
 ```
 
@@ -35,10 +37,12 @@ python try_to_parse.py
 ## Структура
 ```
 parse-medrocket/
-├── try_to_parse.py       # Основной модуль парсера
 ├── tg_bot/
-│   └── status_indicator.txt  # Результат для Telegram-бота
+│   ├── main.py               # Telegram-бот с планировщиком
+│   └── status_indicator.txt  # Результат для передачи боту
 ├── logs_here/
-│   └── logs.log          # История запросов
+│   └── logs.log              # История запросов
+├── try_to_parse.py           # Основной модуль парсера
+├── .env.example              # Шаблон переменных окружения
 └── requirements.txt
 ```
