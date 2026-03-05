@@ -1,10 +1,10 @@
-2025-02-25 07:24:21,030 INFO set_logging_settings Были добавлены настройки конфигурации logging.
-2025-02-25 07:24:21,030 INFO get_headers_for_request Создана хэш-таблица с заголовками для парсинга.
-2025-02-25 07:24:21,328 INFO retrieve_response_from_site Получен ответ с сайта. 200
-2025-02-25 07:24:21,355 INFO check_vacancies Вакансии еще нет.
-2025-02-25 07:40:02,356 INFO get_headers_for_request Создана хэш-таблица с заголовками для парсинга.
-2025-02-25 07:40:02,625 INFO retrieve_response_from_site Получен ответ с сайта. 200
-2025-02-25 07:40:02,652 INFO check_vacancies Вакансии еще нет.
-2025-02-25 07:55:33,653 INFO get_headers_for_request Создана хэш-таблица с заголовками для парсинга.
-2025-02-25 07:55:33,896 INFO retrieve_response_from_site Получен ответ с сайта. 200
-2025-02-25 07:55:33,922 INFO check_vacancies Вакансии еще нет.
+2026-03-05 15:12:27,220 INFO set_logging_settings Были добавлены настройки конфигурации logging.
+2026-03-05 15:12:27,221 INFO get_headers_for_request Создана хэш-таблица с заголовками для парсинга.
+2026-03-05 15:12:27,843 INFO retrieve_response_from_site Получен ответ с сайта. 200
+2026-03-05 15:12:27,868 INFO check_vacancies Была найдена вакансия:  Вакансия Junior Python разработчик 
+2026-03-05 15:12:27,869 INFO write_status_indicator Записали вакансию в file в dir: tg_bot
+2026-03-05 15:16:33,191 INFO set_logging_settings Были добавлены настройки конфигурации logging.
+2026-03-05 15:16:33,192 INFO get_headers_for_request Созданы заголовки для запроса
+2026-03-05 15:16:33,804 INFO retrieve_response_from_site Получен ответ с сайта. 200
+2026-03-05 15:16:33,830 INFO check_vacancies Была найдена вакансия:  Вакансия Junior Python разработчик 
+2026-03-05 15:16:33,830 INFO write_status_indicator Записали вакансию в status_indicator.txt
